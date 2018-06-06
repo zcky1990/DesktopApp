@@ -28,7 +28,7 @@ public class DesktopApp extends javax.swing.JFrame {
     private void initComponents() {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Dewantara");
+        setTitle("Dewantara Employee Payment");
         setBackground(java.awt.Color.white);
         setPreferredSize(new java.awt.Dimension(1028, 720));
         setResizable(false);

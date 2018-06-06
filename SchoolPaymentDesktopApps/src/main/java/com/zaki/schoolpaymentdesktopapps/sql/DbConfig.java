@@ -3,12 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.zaki.schoolpaymentdesktopapps;
+package com.zaki.schoolpaymentdesktopapps.sql;
 
 /**
  *
  * @author soeltanzaki_r
  */
-public class Connection {
+public class DbConfig {
+    private String HOST="";
+    private String USERNAME="";
+    private String PASSWORD="";
+    private String DATABASE_NAME="";
     
 }
