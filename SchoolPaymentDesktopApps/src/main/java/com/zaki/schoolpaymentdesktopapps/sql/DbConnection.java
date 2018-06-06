@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.zaki.schoolpaymentdesktopapps;
+package com.zaki.schoolpaymentdesktopapps.sql;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -20,26 +20,7 @@ static Connection connection = null;
 static PreparedStatement statment = null;
     
     private static void makeJDBCConnection() {
- 
-		try {
-			Class.forName("com.mysql.jdbc.Driver");
-		} catch (ClassNotFoundException e) {
-                        e.printStackTrace();
-			return;
-		}
- 
-		try {
-			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/crunchify", "root", "root");
-			if (connection != null) {
-			
-			} else {
-
-			}
-		} catch (SQLException e) {
-			e.printStackTrace();
-			return;
-		}
- 
-	}
+    
+    }
     
 }
