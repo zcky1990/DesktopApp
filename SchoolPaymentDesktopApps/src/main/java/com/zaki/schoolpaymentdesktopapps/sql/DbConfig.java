@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package com.zaki.schoolpaymentdesktopapps.sql;
-
 /**
  *
  * @author soeltanzaki_r
